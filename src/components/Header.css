@@ -1,0 +1,27 @@
+.navbar {
+  background-image: url(../assets/header.jpg);
+  background-size: 100%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.navlinks {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  padding: 0.3rem;
+  text-decoration: none;
+}
+
+.navlinks li {
+  list-style-type: none;
+}
