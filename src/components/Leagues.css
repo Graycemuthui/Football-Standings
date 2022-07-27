@@ -1,0 +1,51 @@
+.leagues {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #3e61a3;
+}
+
+.league {
+  display: flex;
+  padding: 0.2em;
+  min-height: 10em;
+}
+
+.league:nth-child(4n + 2) {
+  background-color: #677eb0;
+}
+
+.league:nth-child(4n + 3) {
+  background-color: #677eb0;
+}
+
+.upper-league {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.league-name {
+  align-self: flex-end;
+  color: #fff;
+  margin: 0.5em 0;
+  min-width: 4em;
+  font-size: 1.1rem;
+}
+
+.image {
+  max-width: 90%;
+}
+
+.league-btn {
+  border: none;
+  background-color: #4369b2;
+  cursor: pointer;
+}
+
+h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.1rem;
+  padding: 0.2em 0;
+}

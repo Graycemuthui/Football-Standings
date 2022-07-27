@@ -1,0 +1,69 @@
+.club-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0.3em;
+}
+
+.club-container:nth-child(odd) {
+  background-color: #677eb0;
+}
+
+.club-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.chevron {
+  color: rgb(22, 21, 21);
+}
+
+.name-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.points-arrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.points-arrow svg {
+  width: 20px;
+  height: 20px;
+}
+
+.league-list__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 18em;
+  padding: 0 1em;
+}
+
+.league-list__container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(../assets/football.jpg);
+  background-size: 100vw 38vh;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.league-logos {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto;
+  z-index: 3;
+}
+
+.head {
+  padding: 0.4em 0;
+}

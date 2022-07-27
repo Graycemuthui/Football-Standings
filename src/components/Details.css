@@ -47,8 +47,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  /* background-image: url(../assets/Untitled\ design.png); */
-  background-size: cover;
+  background-image: url(../assets//football\ more.jpg);
+  background-size: 100%;
+  background-position-y: 65%;
   background-repeat: no-repeat;
   opacity: 0.8;
 }

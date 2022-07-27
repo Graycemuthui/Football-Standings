@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
 import { fetchLeagues } from '../redux/HomePage/HomePage';
+import Leagues from './Leagues';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -21,7 +22,7 @@ const HomePage = () => {
         <Link to="/">
           <IoChevronBackOutline className="chevron" />
         </Link>
-        <p>Top teams</p>
+        <p>TOP TEAMS</p>
         <div className="nav-icons">
           <FaMicrophone />
           <IoSettingsOutline />
@@ -46,6 +47,7 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
+      <Leagues />
     </>
   );
 };

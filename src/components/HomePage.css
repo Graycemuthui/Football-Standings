@@ -1,3 +1,29 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(
+    68deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(14, 25, 223, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar p {
+  font-size: 2rem;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  color: #0e19df;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -21,8 +47,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  /* background-image: url(../assets/football.png); */
-  background-size: cover;
+  background-image: url(../assets/ball.jpg);
+  background-size: 100%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
   opacity: 0.8;
 }
@@ -37,7 +64,7 @@
 
 .total {
   z-index: 3;
-  color: #fff;
+  color: rgb(65, 3, 3);
   justify-self: flex-end;
   align-self: flex-end;
   margin-top: 15%;
@@ -56,14 +83,10 @@
   opacity: 1;
 }
 
-.nav-bar p {
-  font-size: 1.2rem;
-}
-
 .chevron {
-  color: #fff;
+  color: rgb(34, 34, 34);
   opacity: 0;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .logo-img {
