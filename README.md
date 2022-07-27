@@ -1,3 +1,9 @@
+### Screenshot
+
+- Here is a screenshot for a project.
+
+![leagues](https://user-images.githubusercontent.com/95374858/181255898-604e8d97-25a7-492d-bfce-5a077fbdec8b.png)
+
 ### Football Standings
 
 - This is a Microverse project that entails a list of football standings.
