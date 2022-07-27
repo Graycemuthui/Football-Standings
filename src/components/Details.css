@@ -54,7 +54,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url(../assets//football\ more.jpg);
+  background-image: url(../assets/football.jpg);
   background-size: 100%;
   background-position-y: 65%;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 .clubs-logos {
   padding-left: 1em;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(20, 1fr);
   grid-template-rows: auto auto;
   z-index: 3;
 }
