@@ -1,0 +1,72 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  min-height: 35vh;
+}
+
+.lower-container {
+  display: flex;
+  gap: 4em;
+  z-index: 5;
+  padding-bottom: 1em;
+}
+
+.main-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-image: url(../assets/football.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.leagues-logos {
+  padding-left: 1em;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto;
+  z-index: 3;
+}
+
+.total {
+  z-index: 3;
+  color: #fff;
+  justify-self: flex-end;
+  align-self: flex-end;
+  margin-top: 15%;
+  max-width: 5em;
+}
+
+.main-icon {
+  justify-self: flex-end;
+  align-self: center;
+  margin-right: 1em;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  border: none;
+  z-index: 4;
+  opacity: 1;
+}
+
+.nav-bar p {
+  font-size: 1.2rem;
+}
+
+.chevron {
+  color: #fff;
+  opacity: 0;
+  cursor: auto;
+}
+
+.logo-img {
+  width: 25px;
+  height: 25px;
+}

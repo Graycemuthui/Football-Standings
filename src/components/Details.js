@@ -5,6 +5,7 @@ import { useLocation, Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
 import { fetchLeaguesDetails } from '../redux/Details/Details';
+import './Details.css';
 
 const Details = () => {
   const details = useSelector((state) => state.details);

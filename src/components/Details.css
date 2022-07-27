@@ -1,0 +1,62 @@
+.club-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0.3em;
+}
+
+.club-container:nth-child(odd) {
+  background-color: #677eb0;
+}
+
+.club-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.name-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.points-arrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.points-arrow svg {
+  width: 20px;
+  height: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 18em;
+  padding: 0 1em;
+}
+
+.details-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-image: url(../assets/Untitled\ design.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.clubs-logos {
+  padding-left: 1em;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto;
+  z-index: 3;
+}

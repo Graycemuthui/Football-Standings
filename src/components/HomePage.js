@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
 import { fetchLeagues } from '../redux/HomePage/HomePage';
+import './HomePage.css';
 
 const HomePage = () => {
   const leagues = useSelector((state) => state.leagues);
@@ -16,11 +17,9 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="nav-container">
+      <div className="nav-bar">
         <Link to="/">
-          <IoChevronBackOutline
-            style={{ color: '#fff', opacity: '0', cursor: 'auto' }}
-          />
+          <IoChevronBackOutline className="chevron" />
         </Link>
         <p>Top teams</p>
         <div className="nav-icons">
@@ -38,26 +37,12 @@ const HomePage = () => {
           <div className="leagues-logos">
             {leagues.map((league) => (
               <div key={league.id}>
-                <img
-                  src={league.logo}
-                  alt={league.name}
-                  style={{ width: '25px', height: '25px' }}
-                />
+                <img src={league.logo} alt={league.name} className="logo-img" />
               </div>
             ))}
           </div>
           <Link to="/Leagues">
-            <BiRightArrowCircle
-              className="main-icon"
-              style={{
-                width: '25px',
-                height: '25px',
-                color: '#fff',
-                border: 'none',
-                zIndex: '4',
-                opacity: '1',
-              }}
-            />
+            <BiRightArrowCircle className="main-icon" />
           </Link>
         </div>
       </div>
