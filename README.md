@@ -8,6 +8,10 @@
 
 - This is a Microverse project that entails a list of football standings.
 
+### Video Link
+
+- Here is a link to the video [link](https://www.loom.com/share/d95ebca08a41487d9fb4e6cf054684ca)
+
 ## Built With
 
 - React & Redux
@@ -36,6 +40,10 @@ $npm start
 ```
 
 - Access the app at localhost:3000
+
+### Deployment
+
+- Here is a live link of the project [Live Link](https://incomparable-lokum-b2c67b.netlify.app/)
 
 ### Authors
 
