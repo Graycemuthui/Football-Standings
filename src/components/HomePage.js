@@ -3,7 +3,7 @@ import { BiRightArrowCircle } from 'react-icons/bi';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
-import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
+import { IoSettingsOutline } from 'react-icons/io5';
 import { fetchLeagues } from '../redux/HomePage/HomePage';
 import Leagues from './Leagues';
 import './HomePage.css';
@@ -19,9 +19,6 @@ const HomePage = () => {
   return (
     <>
       <div className="nav-bar">
-        <Link to="/">
-          <IoChevronBackOutline className="chevron" />
-        </Link>
         <p>TOP TEAMS</p>
         <div className="nav-icons">
           <FaMicrophone />
@@ -29,12 +26,11 @@ const HomePage = () => {
         </div>
       </div>
       <div className="main-container">
-        <p className="total">
+        <p className="text">
           Total Available &nbsp; Leagues:
-          {' '}
           {leagues.length}
         </p>
-        <div className="lower-container">
+        <div className="logos-container">
           <div className="leagues-logos">
             {leagues.map((league) => (
               <div key={league.id}>

@@ -87,9 +87,9 @@ const Details = () => {
 
   return (
     <>
-      <div className="nav-container">
+      <div className="nav-bar">
         <Link to="/">
-          <IoChevronBackOutline style={{ color: '#fff' }} />
+          <IoChevronBackOutline className="pointer" style={{ color: '#fff' }} />
         </Link>
         <p>{title}</p>
         <div className="nav-icons">

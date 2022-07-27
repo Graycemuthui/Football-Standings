@@ -1,7 +1,7 @@
 .leagues {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #3e61a3;
+  background-color: #13bdba;
 }
 
 .league {
@@ -11,11 +11,11 @@
 }
 
 .league:nth-child(4n + 2) {
-  background-color: #677eb0;
+  background-color: #0e19df;
 }
 
 .league:nth-child(4n + 3) {
-  background-color: #677eb0;
+  background-color: #0e19df;
 }
 
 .upper-league {
@@ -27,7 +27,7 @@
 
 .league-name {
   align-self: flex-end;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 0.5em 0;
   min-width: 4em;
   font-size: 1.1rem;
@@ -39,13 +39,13 @@
 
 .league-btn {
   border: none;
-  background-color: #4369b2;
   cursor: pointer;
 }
 
 h2 {
   color: #fff;
+  background-color: #0e19df;
   margin: 0;
   font-size: 1.1rem;
-  padding: 0.2em 0;
+  padding: 1rem;
 }

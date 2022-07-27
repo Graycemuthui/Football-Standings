@@ -6,7 +6,7 @@
 }
 
 .club-container:nth-child(odd) {
-  background-color: #677eb0;
+  background-color: #0e19df;
 }
 
 .club-container img {
@@ -29,6 +29,13 @@
 .points-arrow svg {
   width: 20px;
   height: 20px;
+}
+
+.pointer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 .details-container {

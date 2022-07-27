@@ -18,7 +18,7 @@ const Leagues = () => {
     <>
       <div className="grid-container">
         <div>
-          <h2>International leagues</h2>
+          <h2 className="heading-text">International leagues</h2>
         </div>
         <div className="leagues">
           {leagues.map((league) => (
