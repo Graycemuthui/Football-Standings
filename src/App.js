@@ -1,19 +1,18 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './index.css';
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
+import Details from './components/Details';
 import HomePage from './components/HomePage';
-import Characters from './components/Characters';
+import LeaguesList from './components/LeagueList';
 
-const App = () => (
-  <div>
-    <Router>
-      <Header />
+function App() {
+  return (
+    <div>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/characters" element={<Characters />} />
+        <Route index path="/" element={<HomePage />} />
+        <Route path="/leagues" element={<LeaguesList />} />
+        <Route path="/:id" element={<Details />} />
       </Routes>
-    </Router>
-  </div>
-);
+    </div>
+  );
+}
 
 export default App;
