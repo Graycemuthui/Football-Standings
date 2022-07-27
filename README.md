@@ -1,6 +1,6 @@
-### Rick and Morty
+### Football Standings
 
-- This is a Microverse project that entails a list of characters from the TV show Rick and Morty.
+- This is a Microverse project that entails a list of football standings.
 
 ## Built With
 
@@ -43,7 +43,7 @@ $npm start
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/Graycemuthui/Rick-Morty/issues).
+- Feel free to check the [issues page](https://github.com/Graycemuthui/Football-Standings/issues/2).
 
 ## Show your support
 
@@ -52,9 +52,9 @@ $npm start
 ## Acknowledgements
 
 - The React Library.
-- Rick and Morty API Documentation.
-- Header background by Jorge Ventura in [Flickr](https://flic.kr/p/2f5unHq)
+- Football Standings API Documentation.
+- Details Backgroung by Martí Pardo from [pexels](https://www.pexels.com/photo/group-of-men-playing-soccer-1657328/)
 
 ## 📝 License
 
-- This project is [MIT](https://github.com/Graycemuthui/Rick-Morty/blob/dev/LICENSE) licensed.
+- This project is [MIT](https://github.com/Graycemuthui/Football-Standings/blob/dev/LICENSE) licensed.
