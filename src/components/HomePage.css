@@ -1,0 +1,182 @@
+.nav-bar {
+  display: flex;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(21, 236, 230, 1) 0%,
+      rgba(24, 14, 223, 1) 50%
+    );
+  color: #fff;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px;
+}
+
+.nav-bar p {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  color: #fff;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 50vh;
+  gap: 40px;
+}
+
+.searchbar {
+  z-index: 1;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.logos-container {
+  display: flex;
+  gap: 4em;
+  z-index: 5;
+  padding-bottom: 1em;
+}
+
+.main-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background:
+    radial-gradient(
+      circle,
+      rgba(22, 52, 247, 0.419) 0%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../assets/stadium.jpg);
+  background-size: 100%;
+  background-position-y: 8%;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.leagues-logos {
+  padding-left: 1em;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: auto auto;
+  z-index: 3;
+}
+
+.main-icon {
+  justify-self: flex-end;
+  align-self: center;
+  margin-right: 1em;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  border: none;
+  z-index: 3;
+  opacity: 1;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  width: 80%;
+  overflow: hidden;
+  overflow-x: scroll;
+  z-index: 1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.logo-image img {
+  width: 40px;
+}
+
+.chevron {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  color: #e4e4e4;
+}
+
+.leagues-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+  width: 100%;
+  background-image: url(../assets/foota.jpg);
+  object-fit: cover;
+  background-size: 100%;
+}
+
+.league-card {
+  width: 45%;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  background-color: #13bdbada;
+}
+
+.league-card:nth-child(4n + 2) {
+  background-color: #0e19dfd9;
+}
+
+.league-card:nth-child(4n + 3) {
+  background-color: #0e19dfd9;
+}
+
+.league-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.league-card p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .league-card {
+    height: 500px;
+  }
+
+  .league-card img {
+    width: 80%;
+    height: auto;
+  }
+
+  .league-card p {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}
