@@ -65,9 +65,11 @@ $npm start
 
 ## Acknowledgements
 
+- Original design idea by Nelson Sakwa on [Behance](https://www.behance.net/sakwadesignstudio)
 - The React Library.
 - Football Standings API Documentation.
-- Details Backgroung by Martí Pardo from [pexels](https://www.pexels.com/photo/group-of-men-playing-soccer-1657328/)
+- Details Background by Martí Pardo from [pexels](https://www.pexels.com/photo/group-of-men-playing-soccer-1657328/)
+- LeagueList Background by Jonathan Petersson from [pexels](https://www.pexels.com/photo/green-football-field-399187/)
 
 ## 📝 License
 

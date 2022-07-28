@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BiRightArrowCircle } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
@@ -20,7 +19,7 @@ const LeaguesList = () => {
     <>
       <div className="nav-bar">
         <Link to="/">
-          <IoChevronBackOutline className="chevron" />
+          <IoChevronBackOutline className="chevron" style={{ color: '#fff' }} />
         </Link>
         <p>All Leagues</p>
         <div className="nav-icons">
@@ -41,7 +40,7 @@ const LeaguesList = () => {
                   <img
                     src={league.logo}
                     alt={league.name}
-                    style={{ width: '25px', height: '25px' }}
+                    style={{ width: '20px', height: '20px' }}
                   />
                 </div>
               </div>
@@ -53,12 +52,14 @@ const LeaguesList = () => {
           {leagues.map((league) => (
             <div key={league.name} className="club-container">
               <div className="name-logo">
-                <img src={league.logo} alt={league.name} />
+                <img
+                  src={league.logo}
+                  alt={league.name}
+                  style={{ width: '20px', height: '20x' }}
+                />
                 <p>{league.name}</p>
               </div>
-              <div className="points-arrow">
-                <BiRightArrowCircle />
-              </div>
+              <div className="points-arrow" />
             </div>
           ))}
         </div>

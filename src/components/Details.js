@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BiRightArrowCircle } from 'react-icons/bi';
 import { useLocation, Link } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoChevronBackOutline, IoSettingsOutline } from 'react-icons/io5';
@@ -89,32 +88,28 @@ const Details = () => {
     <>
       <div className="nav-bar">
         <Link to="/">
-          <IoChevronBackOutline className="pointer" style={{ color: '#fff' }} />
+          <IoChevronBackOutline size={30} style={{ color: '#fff' }} />
         </Link>
         <p>{title}</p>
         <div className="nav-icons">
-          <FaMicrophone />
-          <IoSettingsOutline />
+          <FaMicrophone size={30} />
+          <IoSettingsOutline size={30} />
         </div>
       </div>
       <div className="details-container">
-        <div className="total">
-          Total teams:
-          {details.length}
-        </div>
         <div className="clubs-logos">
           {details.map((club) => (
             <div key={club.name}>
               <img
                 src={club.logo}
                 alt={club.name}
-                style={{ width: '25px', height: '25px' }}
+                style={{ width: '40px', height: '40px' }}
               />
             </div>
           ))}
         </div>
       </div>
-      <div className="head">Teams</div>
+      <div className="head">TEAMS</div>
       <div className="grid-container">
         <div>
           {details.map((club) => (
@@ -129,7 +124,6 @@ const Details = () => {
                   {' '}
                   points
                 </p>
-                <BiRightArrowCircle />
               </div>
             </div>
           ))}
