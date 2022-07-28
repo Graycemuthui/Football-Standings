@@ -2,7 +2,7 @@
 
 - Here is a screenshot of the project.
 
-![screensnip](https://user-images.githubusercontent.com/95374858/181513526-c5792456-b6d6-4482-84c2-a690791f1f13.png)
+![pure ting](https://user-images.githubusercontent.com/95374858/181514151-2b32b496-f0a7-44dd-82e8-eef3f1a60bdf.png)
 
 ### Football Standings
 
