@@ -1,3 +1,9 @@
+### Screenshot
+
+- Here is a screenshot of the project.
+
+![screensnip](https://user-images.githubusercontent.com/95374858/181513526-c5792456-b6d6-4482-84c2-a690791f1f13.png)
+
 ### Football Standings
 
 - This is a Microverse project that entails a list of football standings.
@@ -37,7 +43,7 @@ $npm start
 
 ### Deployment
 
-- Here is a live link of the project [Live Link](https://incomparable-lokum-b2c67b.netlify.app/)
+- Here is a live link of the project [Live Link](https://gregarious-brigadeiros-a81bcb.netlify.app/)
 
 ### Authors
 
